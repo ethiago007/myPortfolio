@@ -14,6 +14,47 @@ function fadeout(){
 preloader.style.opacity = '0'
 preloader.style.visibility = 'hidden'
 $(".wholebody").show();
+let textWrappers = document.querySelector('.ml6 .letters');
+textWrappers.innerHTML = textWrappers.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({ loop: false })
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateX: ["0.55em", 0],
+    translateZ: 0,
+    rotateZ: [180, 0],
+    duration: 750,
+    easing: "easeOutExpo",
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 1,
+    duration: 2000,
+    easing: "easeOutExpo",
+    delay: 1500
+  });
+  let textWrapper = document.querySelector('.ml7 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({ loop: false })
+  .add({
+    targets: '.ml7 .letter',
+    translateY: ["1.1em", 0],
+    translateX: ["0.55em", 0],
+    translateZ: 0,
+    rotateZ: [180, 0],
+    duration: 750,
+    easing: "easeOutExpo",
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml7',
+    opacity: 1,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+
 }
 
 $(".skills").addClass("active")
@@ -56,26 +97,26 @@ anime.timeline({ loop: false })
     delay: 1000
   });
 
-let textWrappersMobile = document.querySelector('.ml5 .letters');
-textWrappersMobile.innerHTML = textWrappersMobile.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+// let textWrappersMobile = document.querySelector('.ml5 .letters');
+// textWrappersMobile.innerHTML = textWrappersMobile.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({ loop: false })
-  .add({
-    targets: '.ml5 .letter',
-    translateY: ["1.1em", 0],
-    translateX: ["0.55em", 0],
-    translateZ: 0,
-    rotateZ: [180, 0],
-    duration: 750,
-    easing: "easeOutExpo",
-    delay: (el, i) => 50 * i
-  }).add({
-    targets: '.ml5',
-    opacity: 1,
-    duration: 2000,
-    easing: "easeOutExpo",
-    delay: 1500
-  });
+// anime.timeline({ loop: false })
+//   .add({
+//     targets: '.ml5 .letter',
+//     translateY: ["1.1em", 0],
+//     translateX: ["0.55em", 0],
+//     translateZ: 0,
+//     rotateZ: [180, 0],
+//     duration: 750,
+//     easing: "easeOutExpo",
+//     delay: (el, i) => 50 * i
+//   }).add({
+//     targets: '.ml5',
+//     opacity: 1,
+//     duration: 2000,
+//     easing: "easeOutExpo",
+//     delay: 1500
+//   });
 
 let textWrappers = document.querySelector('.ml6 .letters');
 textWrappers.innerHTML = textWrappers.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
