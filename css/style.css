@@ -590,6 +590,11 @@ h3.center {
 
 
 /* SKILLS */
+.stack {
+color: #fff;
+font-size: 1em;
+}
+
 .skills,
 .skills .skill,
 .skills .skill .skill-title,
