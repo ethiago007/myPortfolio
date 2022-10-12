@@ -621,7 +621,7 @@ font-size: 1em;
 
 .skills .skill .skill-bar {
     width: 0;
-    height: 15px;
+    height: 8px;
     background: #f0f0f0;
     border-radius: 13px;
     transition: 1s cubic-bezier(1, 0, .5, 1);
@@ -637,7 +637,7 @@ font-size: 1em;
     float: left;
     width: 0%;
     background: dimgray;
-    height: 15px;
+    height: 8px;
     position: relative;
     border-radius: 13px;
     transition: 1s cubic-bezier(1, 0, .5, 1);
@@ -786,10 +786,10 @@ h5.offerTitle {
     color: white;
 }
 
-.fa-5x {
+.fa-3x {
     color: white;
 }
-.fa-5x:hover {
+.fa-3x:hover {
     color: #2f3640;
 }
 
