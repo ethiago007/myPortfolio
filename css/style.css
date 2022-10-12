@@ -4,7 +4,7 @@
     --preload-color-accent: #03a9f4;
     --preload-gap: 36px;
     --preload-icon-size: 128px;
-    --preload-font: 2em cursive;
+    --preload-font: 2em Montserrat;
     --preload-title: 'kamal.js';
     --preload-spinner-size: 32px;
     --preload-spinner-width: 3px;
@@ -101,7 +101,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 body {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Montserrat'; 
     
   /* font-family: 'Quicksand', sans-serif; */
 }
@@ -136,7 +136,7 @@ header::after {
   float: left;
   font-size: 1.4rem;
   margin: 0;
- font-family: Apple Chancery, cursive;
+ font-family: Montserrat;
   font-weight: 900;
 }
 
@@ -435,6 +435,7 @@ h3.center {
 .abt {
     text-align: center;
     color: #fff;
+    font-family: Montserrat;
 }
 @media (width: 768px) {
     .myImg {
