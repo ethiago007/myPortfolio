@@ -29,7 +29,6 @@ https://github.com/ethiago007/myPortfolio.git
 https://mohdkamaldeen-portfolio.netlify.app/
 
 
-
 ## CONTACT INFORMATION
 * +2349064252791 (calls and WhatsApp)
 * mohammedkamaldeen204@gmail.com
